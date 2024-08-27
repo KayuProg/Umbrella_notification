@@ -1,0 +1,1 @@
+This is notification system scriptts telling wheter we should bring umbrella.
