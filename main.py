@@ -56,7 +56,8 @@ TEXT_FILE = "a.txt"
 # openjtalk
 X_DIC = '/var/lib/mecab/dic/open-jtalk/naist-jdic'
 # M_VOICE = '/usr/share/hts-voice/nitech-jp-atr503-m001/nitech_jp_atr503_m001.htsvoice'
-M_VOICE = '/usr/share/hts-voice/mei/mei_normal.htsvoice'
+# M_VOICE = '/usr/share/hts-voice/htsvoice-tohoku-f01-master/htsvoice-tohoku-f01-master/tohoku-f01-angry.htsvoice'# neutral happy angry sad 
+M_VOICE = '/usr/share/hts-voice/mei/mei_normal.htsvoice' # angry happy sad bashful normal
 R_SPEED = '1.0'
 OW_WAVFILE = '/tmp/tmp.wav'
 
