@@ -47,6 +47,46 @@ sock.close()
 # Reading aloud
 #########################################################
 
+#mei
+import subprocess
+
+# textfile
+TEXT_FILE = "a.txt"
+
+# openjtalk
+X_DIC = '/var/lib/mecab/dic/open-jtalk/naist-jdic'
+# M_VOICE = '/usr/share/hts-voice/nitech-jp-atr503-m001/nitech_jp_atr503_m001.htsvoice'
+M_VOICE = '/usr/share/hts-voice/mei/mei_normal.htsvoice'
+R_SPEED = '1.0'
+OW_WAVFILE = '/tmp/tmp.wav'
+
+# aplay
+# CARD_NO = 1
+# DEVICE_NO = 0
+
+def talk_text(t):
+    open_jtalk = ['open_jtalk']
+    xdic = ['-x', X_DIC]
+    mvoice = ['-m', M_VOICE]
+    rspeed = ['-r', R_SPEED]
+    owoutwav = ['-ow',OW_WAVFILE]
+    cmd = open_jtalk + xdic + mvoice + rspeed + owoutwav
+    c = subprocess.Popen(cmd, stdin=subprocess.PIPE)
+    c.stdin.write(t.encode('utf-8'))
+    c.stdin.close()
+    c.wait()
+#   aplay = ['aplay', '-q', OW_WAVFILE, ('-Dplughw:'+str(CARD_NO)+','+str(DEVICE_NO))]
+    aplay = ['aplay', '-q', OW_WAVFILE]
+    wr = subprocess.Popen(aplay)
+    wr.wait()
+
+def main():
+    with open(TEXT_FILE) as f:
+        for line in f:
+            talk_text("今日ははれ")
+
+if __name__ == '__main__':
+    main()
 
 
 gc.collect()#ガベージコレクションの強制実行
