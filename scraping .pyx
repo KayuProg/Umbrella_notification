@@ -53,6 +53,23 @@ cpdef scrape():
                 elif check[4]==0 and data[i].contents[0]=="豪雨":
                         forecasts["gou"]=i+1
                         check[4]=1
+        
+
+        if check[0]==0:
+                forecasts["ko"]=None
+                check[0]=1
+        if check[1]==0:
+                forecasts["yowa"]=None
+                check[1]=1
+        if check[2]==0:
+                forecasts["ame"]=None
+                check[2]=1
+        if check[3]==0:
+                forecasts["tuyo"]=None
+                check[3]=1
+        if check[4]==0:
+                forecasts["gou"]=None
+                check[4]=1
 
         return forecasts
 

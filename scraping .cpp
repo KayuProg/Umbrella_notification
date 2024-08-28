@@ -2020,7 +2020,7 @@ static const char __pyx_k_asyncio_coroutines[] = "asyncio.coroutines";
 static const char __pyx_k_cline_in_traceback[] = "cline_in_traceback";
 static const char __pyx_k_forecast_point_1h_today[] = "forecast-point-1h-today";
 static const char __pyx_k_http_request_successful[] = "http request successful";
-static const char __pyx_k_a_A_XT_4_2Q_1_Jd_4vQ_D_Qc_5_gQ_W[] = "\200a\340\010\014\210A\340\010\r\210X\220T\230\021\230!\340\010\013\2104\210|\2302\230Q\330\r\022\220!\2201\340\010\014\210J\220d\230!\340\010\r\210]\230!\2304\230v\240Q\340\010\024\220D\230\005\230Q\230c\240\021\330\010\020\220\013\2305\240\001\240\025\240g\250Q\340\010\r\210W\220I\230Q\230a\360\006\000\t\023\220!\330\010\016\210a\210r\220\022\2202\220R\220q\330\010\014\210E\220\025\220a\220s\230!\2301\330\020\023\2205\230\001\230\022\2302\230R\230t\2404\240q\250\002\250)\2601\260B\260b\270\001\330\030!\240\021\240&\250\001\250\021\250!\330\030\035\230Q\230c\240\021\330\025\032\230!\2302\230R\230r\240\024\240T\250\021\250\"\250I\260Q\260b\270\002\270!\330\030!\240\021\240(\250!\2501\250A\330\030\035\230Q\230c\240\021\330\025\032\230!\2302\230R\230r\240\024\240T\250\021\250\"\250I\260Q\260b\270\002\270!\330\030!\240\021\240'\250\021\250!\2501\330\030\035\230Q\230c\240\021\330\025\032\230!\2302\230R\230r\240\024\240T\250\021\250\"\250I\260Q\260b\270\002\270!\330\030!\240\021\240(\250!\2501\250A\330\030\035\230Q\230c\240\021\330\025\032\230!\2302\230R\230r\240\024\240T\250\021\250\"\250I\260Q\260b\270\002\270!\330\030!\240\021\240'\250\021\250!\2501\330\030\035\230Q\230c\240\021\340\010\017\210q";
+static const char __pyx_k_a_A_XT_4_2Q_1_Jd_4vQ_D_Qc_5_gQ_W[] = "\200a\340\010\014\210A\340\010\r\210X\220T\230\021\230!\340\010\013\2104\210|\2302\230Q\330\r\022\220!\2201\340\010\014\210J\220d\230!\340\010\r\210]\230!\2304\230v\240Q\340\010\024\220D\230\005\230Q\230c\240\021\330\010\020\220\013\2305\240\001\240\025\240g\250Q\340\010\r\210W\220I\230Q\230a\360\006\000\t\023\220!\330\010\016\210a\210r\220\022\2202\220R\220q\330\010\014\210E\220\025\220a\220s\230!\2301\330\020\023\2205\230\001\230\022\2302\230R\230t\2404\240q\250\002\250)\2601\260B\260b\270\001\330\030!\240\021\240&\250\001\250\021\250!\330\030\035\230Q\230c\240\021\330\025\032\230!\2302\230R\230r\240\024\240T\250\021\250\"\250I\260Q\260b\270\002\270!\330\030!\240\021\240(\250!\2501\250A\330\030\035\230Q\230c\240\021\330\025\032\230!\2302\230R\230r\240\024\240T\250\021\250\"\250I\260Q\260b\270\002\270!\330\030!\240\021\240'\250\021\250!\2501\330\030\035\230Q\230c\240\021\330\025\032\230!\2302\230R\230r\240\024\240T\250\021\250\"\250I\260Q\260b\270\002\270!\330\030!\240\021\240(\250!\2501\250A\330\030\035\230Q\230c\240\021\330\025\032\230!\2302\230R\230r\240\024\240T\250\021\250\"\250I\260Q\260b\270\002\270!\330\030!\240\021\240'\250\021\250!\2501\330\030\035\230Q\230c\240\021\360\006\000\t\014\2105\220\001\220\022\2202\220Q\330\020\031\230\021\230&\240\001\330\020\025\220Q\220c\230\021\330\010\013\2105\220\001\220\022\2202\220Q\330\020\031\230\021\230(\240!\330\020\025\220Q\220c\230\021\330\010\013\2105\220\001\220\022\2202\220Q\330\020\031\230\021\230'\240\021\330\020\025\220Q\220c\230\021\330\010\013\2105\220\001\220\022\2202\220Q\330\020\031\230\021\230(\240!\330\020\025\220Q\220c\230\021\330\010\013\2105\220\001\220\022\2202\220Q\330\020\031\230\021\230'\240\021\330\020\025\220Q\220c\230\021\340\010\017\210q";
 static const char __pyx_k_https_tenki_jp_forecast_3_16_441[] = "https://tenki.jp/forecast/3/16/4410/13204/1hour.html#forecast-point-1h-today";
 /* #### Code section: decls ### */
 static PyObject *__pyx_pf_8scraping_scrape(CYTHON_UNUSED PyObject *__pyx_self); /* proto */
@@ -2890,7 +2890,7 @@ static PyObject *__pyx_f_8scraping_scrape(CYTHON_UNUSED int __pyx_skip_dispatch)
  *                         forecasts["gou"]=i+1
  *                         check[4]=1             # <<<<<<<<<<<<<<
  * 
- *         return forecasts
+ * 
 */
       if (unlikely((__Pyx_SetItemInt(__pyx_v_check, 4, __pyx_int_1, long, 1, __Pyx_PyLong_From_long, 1, 0, 0) < 0))) __PYX_ERR(0, 55, __pyx_L1_error)
 
@@ -2914,8 +2914,193 @@ static PyObject *__pyx_f_8scraping_scrape(CYTHON_UNUSED int __pyx_skip_dispatch)
   }
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "scraping .pyx":57
- *                         check[4]=1
+  /* "scraping .pyx":58
+ * 
+ * 
+ *         if check[0]==0:             # <<<<<<<<<<<<<<
+ *                 forecasts["ko"]=None
+ *                 check[0]=1
+*/
+  __pyx_t_5 = (__Pyx_PyLong_BoolEqObjC(PyList_GET_ITEM(__pyx_v_check, 0), __pyx_int_0, 0, 0)); if (unlikely((__pyx_t_5 < 0))) __PYX_ERR(0, 58, __pyx_L1_error)
+  if (__pyx_t_5) {
+
+    /* "scraping .pyx":59
+ * 
+ *         if check[0]==0:
+ *                 forecasts["ko"]=None             # <<<<<<<<<<<<<<
+ *                 check[0]=1
+ *         if check[1]==0:
+*/
+    if (unlikely((PyDict_SetItem(__pyx_v_forecasts, __pyx_n_u_ko, Py_None) < 0))) __PYX_ERR(0, 59, __pyx_L1_error)
+
+    /* "scraping .pyx":60
+ *         if check[0]==0:
+ *                 forecasts["ko"]=None
+ *                 check[0]=1             # <<<<<<<<<<<<<<
+ *         if check[1]==0:
+ *                 forecasts["yowa"]=None
+*/
+    if (unlikely((__Pyx_SetItemInt(__pyx_v_check, 0, __pyx_int_1, long, 1, __Pyx_PyLong_From_long, 1, 0, 0) < 0))) __PYX_ERR(0, 60, __pyx_L1_error)
+
+    /* "scraping .pyx":58
+ * 
+ * 
+ *         if check[0]==0:             # <<<<<<<<<<<<<<
+ *                 forecasts["ko"]=None
+ *                 check[0]=1
+*/
+  }
+
+  /* "scraping .pyx":61
+ *                 forecasts["ko"]=None
+ *                 check[0]=1
+ *         if check[1]==0:             # <<<<<<<<<<<<<<
+ *                 forecasts["yowa"]=None
+ *                 check[1]=1
+*/
+  __pyx_t_5 = (__Pyx_PyLong_BoolEqObjC(PyList_GET_ITEM(__pyx_v_check, 1), __pyx_int_0, 0, 0)); if (unlikely((__pyx_t_5 < 0))) __PYX_ERR(0, 61, __pyx_L1_error)
+  if (__pyx_t_5) {
+
+    /* "scraping .pyx":62
+ *                 check[0]=1
+ *         if check[1]==0:
+ *                 forecasts["yowa"]=None             # <<<<<<<<<<<<<<
+ *                 check[1]=1
+ *         if check[2]==0:
+*/
+    if (unlikely((PyDict_SetItem(__pyx_v_forecasts, __pyx_n_u_yowa, Py_None) < 0))) __PYX_ERR(0, 62, __pyx_L1_error)
+
+    /* "scraping .pyx":63
+ *         if check[1]==0:
+ *                 forecasts["yowa"]=None
+ *                 check[1]=1             # <<<<<<<<<<<<<<
+ *         if check[2]==0:
+ *                 forecasts["ame"]=None
+*/
+    if (unlikely((__Pyx_SetItemInt(__pyx_v_check, 1, __pyx_int_1, long, 1, __Pyx_PyLong_From_long, 1, 0, 0) < 0))) __PYX_ERR(0, 63, __pyx_L1_error)
+
+    /* "scraping .pyx":61
+ *                 forecasts["ko"]=None
+ *                 check[0]=1
+ *         if check[1]==0:             # <<<<<<<<<<<<<<
+ *                 forecasts["yowa"]=None
+ *                 check[1]=1
+*/
+  }
+
+  /* "scraping .pyx":64
+ *                 forecasts["yowa"]=None
+ *                 check[1]=1
+ *         if check[2]==0:             # <<<<<<<<<<<<<<
+ *                 forecasts["ame"]=None
+ *                 check[2]=1
+*/
+  __pyx_t_5 = (__Pyx_PyLong_BoolEqObjC(PyList_GET_ITEM(__pyx_v_check, 2), __pyx_int_0, 0, 0)); if (unlikely((__pyx_t_5 < 0))) __PYX_ERR(0, 64, __pyx_L1_error)
+  if (__pyx_t_5) {
+
+    /* "scraping .pyx":65
+ *                 check[1]=1
+ *         if check[2]==0:
+ *                 forecasts["ame"]=None             # <<<<<<<<<<<<<<
+ *                 check[2]=1
+ *         if check[3]==0:
+*/
+    if (unlikely((PyDict_SetItem(__pyx_v_forecasts, __pyx_n_u_ame, Py_None) < 0))) __PYX_ERR(0, 65, __pyx_L1_error)
+
+    /* "scraping .pyx":66
+ *         if check[2]==0:
+ *                 forecasts["ame"]=None
+ *                 check[2]=1             # <<<<<<<<<<<<<<
+ *         if check[3]==0:
+ *                 forecasts["tuyo"]=None
+*/
+    if (unlikely((__Pyx_SetItemInt(__pyx_v_check, 2, __pyx_int_1, long, 1, __Pyx_PyLong_From_long, 1, 0, 0) < 0))) __PYX_ERR(0, 66, __pyx_L1_error)
+
+    /* "scraping .pyx":64
+ *                 forecasts["yowa"]=None
+ *                 check[1]=1
+ *         if check[2]==0:             # <<<<<<<<<<<<<<
+ *                 forecasts["ame"]=None
+ *                 check[2]=1
+*/
+  }
+
+  /* "scraping .pyx":67
+ *                 forecasts["ame"]=None
+ *                 check[2]=1
+ *         if check[3]==0:             # <<<<<<<<<<<<<<
+ *                 forecasts["tuyo"]=None
+ *                 check[3]=1
+*/
+  __pyx_t_5 = (__Pyx_PyLong_BoolEqObjC(PyList_GET_ITEM(__pyx_v_check, 3), __pyx_int_0, 0, 0)); if (unlikely((__pyx_t_5 < 0))) __PYX_ERR(0, 67, __pyx_L1_error)
+  if (__pyx_t_5) {
+
+    /* "scraping .pyx":68
+ *                 check[2]=1
+ *         if check[3]==0:
+ *                 forecasts["tuyo"]=None             # <<<<<<<<<<<<<<
+ *                 check[3]=1
+ *         if check[4]==0:
+*/
+    if (unlikely((PyDict_SetItem(__pyx_v_forecasts, __pyx_n_u_tuyo, Py_None) < 0))) __PYX_ERR(0, 68, __pyx_L1_error)
+
+    /* "scraping .pyx":69
+ *         if check[3]==0:
+ *                 forecasts["tuyo"]=None
+ *                 check[3]=1             # <<<<<<<<<<<<<<
+ *         if check[4]==0:
+ *                 forecasts["gou"]=None
+*/
+    if (unlikely((__Pyx_SetItemInt(__pyx_v_check, 3, __pyx_int_1, long, 1, __Pyx_PyLong_From_long, 1, 0, 0) < 0))) __PYX_ERR(0, 69, __pyx_L1_error)
+
+    /* "scraping .pyx":67
+ *                 forecasts["ame"]=None
+ *                 check[2]=1
+ *         if check[3]==0:             # <<<<<<<<<<<<<<
+ *                 forecasts["tuyo"]=None
+ *                 check[3]=1
+*/
+  }
+
+  /* "scraping .pyx":70
+ *                 forecasts["tuyo"]=None
+ *                 check[3]=1
+ *         if check[4]==0:             # <<<<<<<<<<<<<<
+ *                 forecasts["gou"]=None
+ *                 check[4]=1
+*/
+  __pyx_t_5 = (__Pyx_PyLong_BoolEqObjC(PyList_GET_ITEM(__pyx_v_check, 4), __pyx_int_0, 0, 0)); if (unlikely((__pyx_t_5 < 0))) __PYX_ERR(0, 70, __pyx_L1_error)
+  if (__pyx_t_5) {
+
+    /* "scraping .pyx":71
+ *                 check[3]=1
+ *         if check[4]==0:
+ *                 forecasts["gou"]=None             # <<<<<<<<<<<<<<
+ *                 check[4]=1
+ * 
+*/
+    if (unlikely((PyDict_SetItem(__pyx_v_forecasts, __pyx_n_u_gou, Py_None) < 0))) __PYX_ERR(0, 71, __pyx_L1_error)
+
+    /* "scraping .pyx":72
+ *         if check[4]==0:
+ *                 forecasts["gou"]=None
+ *                 check[4]=1             # <<<<<<<<<<<<<<
+ * 
+ *         return forecasts
+*/
+    if (unlikely((__Pyx_SetItemInt(__pyx_v_check, 4, __pyx_int_1, long, 1, __Pyx_PyLong_From_long, 1, 0, 0) < 0))) __PYX_ERR(0, 72, __pyx_L1_error)
+
+    /* "scraping .pyx":70
+ *                 forecasts["tuyo"]=None
+ *                 check[3]=1
+ *         if check[4]==0:             # <<<<<<<<<<<<<<
+ *                 forecasts["gou"]=None
+ *                 check[4]=1
+*/
+  }
+
+  /* "scraping .pyx":74
+ *                 check[4]=1
  * 
  *         return forecasts             # <<<<<<<<<<<<<<
  * 
@@ -3573,7 +3758,7 @@ static int __Pyx_CreateCodeObjects(void) {
   PyObject* tuple_dedup_map = PyDict_New();
   if (unlikely(!tuple_dedup_map)) return -1;
   {
-    __Pyx_PyCode_New_function_description descr = {0, 0, 0, 0, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 19, 396};
+    __Pyx_PyCode_New_function_description descr = {0, 0, 0, 0, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 19, 553};
     PyObject* varnames[] = {0};
     __pyx_codeobj_tab[0] = __Pyx_PyCode_New(descr, varnames, __pyx_kp_s_scraping_pyx, __pyx_n_s_scrape, __pyx_k_a_A_XT_4_2Q_1_Jd_4vQ_D_Qc_5_gQ_W, tuple_dedup_map); if (unlikely(!__pyx_codeobj_tab[0])) goto bad;
   }
