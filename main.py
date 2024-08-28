@@ -44,21 +44,21 @@ sock.close()
 
 
 #########################################################
-# Reading aloud
+# Reading aloud cythonで読み上げは遅い
 #########################################################
 import os
 from gtts import gTTS
 ################# Japanese ###################
 japanese='日仏首脳電話会談。3月13日，午後6時10分から約30分間，安倍晋三内閣総理大臣は，エマニュエル・マクロン・フランス共和国大統領と日仏首脳電話会談を行いました。'
 tts = gTTS(japanese, lang='ja')
-tts.save("japanese.mp3")
-os.system("mplayer -speed 1.4 -af scaletempo japanese.mp3")
+tts.save("./audio/japanese.mp3")
+os.system("mplayer -speed 1.4 -af scaletempo ./audio/japanese.mp3")
 
 ################# English ###################
 english='Japan\'s Health Ministry updated its Q&A page. You can find answers to such questions as how you can avoid catching/spreading the virus, what is the "cough etiquette". '
 tts = gTTS(english, lang='en')
-tts.save("english.mp3")
-os.system("mplayer english.mp3")
+tts.save("./audio/english.mp3")
+os.system("mplayer ./audio/english.mp3")
 
 
 ################# mei ###################
