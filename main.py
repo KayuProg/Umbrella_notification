@@ -4,9 +4,9 @@ import socket
 import gc
 import os
 
-# import logging
+import logging
 
-# # ログ設定
+# ログ設定
 # logging.basicConfig(
 #     filename='/home/kayu/Desktop/weather/main.log',  # ログを記録するファイル名
 #     level=logging.INFO,  # 記録するログのレベル（DEBUG, INFO, WARNING, ERROR, CRITICAL）
@@ -54,7 +54,7 @@ def pico_connect():
 ################# Japanese ###################
 def read_aloud():
     # logging.info("trying to read aloud")
-    os.system("/usr/bin/mplayer -speed 1.0 -af scaletempo /home/kayu/Desktop/weather/audio/readaloud.mp3")
+    os.system("/usr/bin/mplayer -speed 1.1 -af scaletempo /home/kayu/Desktop/weather/audio/readaloud.mp3")
     # logging.info("read aloud end")
 # ################# English ###################
 # english='Japan\'s Health Ministry updated its Q&A page. You can find answers to such questions as how you can avoid catching/spreading the virus, what is the "cough etiquette". '

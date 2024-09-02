@@ -33,18 +33,25 @@ def make_text():
 
     keys=list(result.keys())
 
+    now_hour=int(datetime.now().hour)
     for key in keys:
         if result[key]!=None:
+            #現在以降の天気を反映させる
             if key=='ko':
-                time=str(result['ko'])+"時から小雨．"
+                if  result['ko']>=now_hour:
+                    time=str(result['ko'])+"時から小雨．"
             elif key=='yowa':
-                time=str(result['yowa'])+"時から弱雨．"
+                if  result['yowa']>=now_hour:                
+                    time=str(result['yowa'])+"時から弱雨．"
             elif key=='ame':
-                time=str(result['ame'])+"時から雨．"
+                if  result['ame']>=now_hour:
+                    time=str(result['ame'])+"時から雨．"
             elif key=='tuyo':
-                time=str(result['tuyo'])+"時から強い雨．"
+                if  result['tuyo']>=now_hour:
+                    time=str(result['tuyo'])+"時から強い雨．"
             elif key=='gou':
-                time=str(result['gou'])+"時から豪雨．"
+                if  result['gou']>=now_hour:
+                    time=str(result['gou'])+"時から豪雨．"
 
             text_time.append(time)
     
