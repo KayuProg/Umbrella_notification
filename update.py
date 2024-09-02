@@ -1,5 +1,6 @@
-from main import task1
+from main2 import task1
 from datetime import datetime
+import time
 
 while True:
     # 現在の「時」を取得
@@ -21,3 +22,5 @@ while True:
         break
 
 #毎朝4時にこのファイル実行．
+
+cron側でできるようにする

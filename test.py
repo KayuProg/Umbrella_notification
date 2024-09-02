@@ -1,2 +1,2 @@
-import main
-main.kk()
+import socket
+print(socket.gethostname())
